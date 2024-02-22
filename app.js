@@ -15,6 +15,8 @@ let articlesPerDay = process.env.ARTICLES_PER_DAY;
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
+console.log(SHOP_URL);
+
 // Initialize OpenAI with your API key
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
